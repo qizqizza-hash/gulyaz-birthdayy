@@ -11,18 +11,40 @@
 
 <body>
 
-    <div class="card">
+    <!-- Səhnə 1 -->
+    <div id="scene1" class="card">
 
         <div class="cat">🐈</div>
 
         <h1>Salam, Gülyaz! 🌸</h1>
 
         <p>
-            Mən Momo.<br>
+            Mən <strong>Momo</strong>.<br><br>
             Bu gün sənin üçün kiçik bir macəra hazırlamışam.
         </p>
 
-        <button>Başlayaq 💖</button>
+        <button onclick="nextScene()">
+            Başlayaq 💖
+        </button>
+
+    </div>
+
+    <!-- Səhnə 2 -->
+    <div id="scene2" class="card hidden">
+
+        <div class="cat">🐈</div>
+
+        <h1>Bir dəqiqə... 🤭</h1>
+
+        <p>
+            Mən əmin olmaq istəyirəm...
+            <br><br>
+            Sən doğrudan da Gülyazsan? 💖
+        </p>
+
+        <button onclick="yesIam()">
+            Bəli, mənəm ✨
+        </button>
 
     </div>
 
